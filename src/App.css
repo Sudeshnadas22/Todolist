@@ -1,0 +1,17 @@
+.app{
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+.app_main{
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px auto;
+  background-image: linear-gradient(55deg, #f298d3, #fdac7d);
+
+}
+.task_column{
+  width: 22.22%;
+  margin: 20px;
+}
+

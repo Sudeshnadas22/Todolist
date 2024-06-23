@@ -1,0 +1,19 @@
+.task_column_heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.task_icon{
+    width: 30px;
+    margin-right:5px;
+}
+
+@media screen and (max-width:1170px){
+    .task_icon{
+        width: 20px;
+    }
+    .task_column_heading{
+        font-size: 20px;
+    }
+}
